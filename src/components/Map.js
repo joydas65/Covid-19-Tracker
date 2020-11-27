@@ -14,7 +14,7 @@ const Map = ({ coronaData, center, zoom  }) => {
     return (
         <div className="map">
             <GoogleMapReact
-                bootstrapURLKeys={{ key: 'AIzaSyBHS0BYR2uV9lTENOOV4xSeXtv8sHr3q54' }}
+                bootstrapURLKeys={{ key: '' }}
                 defaultCenter={ center }
                 defaultZoom={ zoom }
             >
