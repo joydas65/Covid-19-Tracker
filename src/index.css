@@ -111,3 +111,34 @@ body {
   display: block;
   font-size: .6em;
 }
+
+@media only screen and (max-width: 320px){
+  .map{
+    width: 71vh;
+    height: 90vh;
+  }
+
+  .tracker-stats{
+    width: 125.5%;
+    height: 35vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .tracker-stats ul{
+    height: 29vh;
+  }
+
+  .tracker-stat{
+    font-size: 110%;
+    padding: .6em;
+  }
+
+  .tracker-stat-primary{
+    margin-top: 20%;
+  }
+
+  .tracker-stat-primary strong{
+    font-size: .84em;
+  }
+}
