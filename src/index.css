@@ -112,7 +112,20 @@ body {
   font-size: .6em;
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 280px){
+  .map{
+    width: 144vw;
+    height: 114.6vh;
+  }
+
+  .tracker-stats {
+    width: 144vw;
+  }
+}
+
+@media only screen
+and (min-width: 281px)
+and (max-width: 320px){
   .map{
     width: 71vh;
     height: 90vh;
@@ -134,7 +147,7 @@ and (max-width : 360px) {
 
   .map{
     width: 112vw;
-    height: 70vh;
+    height: 80vh;
   }
 
   .tracker-stats{
@@ -177,5 +190,29 @@ and (max-width: 375px) {
 
   .tracker-stat-primary strong{
     font-size: .84em;
+  }
+}
+
+@media only screen 
+and (min-width: 601px)
+and (max-width: 768px) {
+  .map{
+    height: 80vh;
+  }
+}
+
+@media only screen 
+and (min-width: 769px)
+and (max-width: 1024px) {
+  .header h1 {
+    font-size: 40px;
+  }
+
+  .map{
+    height: 65vh;
+  }
+
+  .tracker-stat-primary {
+    margin-top: 10%;
   }
 }
